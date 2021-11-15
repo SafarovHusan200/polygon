@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 250px;
+  padding: 20px;
+  background-color: #36363a;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lawngreen;
+  margin: 5px;
+}
+
+.box:nth-of-type(1) {
+  -webkit-clip-path: polygon(50% 0, 65% 25%, 100% 25%, 85% 50%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0 75%, 15% 50%, 0 25%, 35% 25%);
+          clip-path: polygon(50% 0, 65% 25%, 100% 25%, 85% 50%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0 75%, 15% 50%, 0 25%, 35% 25%);
+}
+/*# sourceMappingURL=style.css.map */
